@@ -21,22 +21,12 @@ gulp.task('lint', function() {
 				.pipe(jshint.reporter('default'));
 });
 
-// Compile Our Sass
-
-gulp.task('less', function() {
-		return gulp.src('elements//.less')
-			.pipe(less())
-			.pipe(autoprefixer({
-				browsers: ["last 3 versions", "> 2%", "ie 10", "ie 11", "ie 9"],
-				cascade: true
-		}))
-			.pipe(gulp.dest('work'));
-});
 */
 
 gulp.task('copyFromBowerLib', function () {
 	gulp.src([
-		'bower_components/normalize.css/normalize.css'
+		'bower_components/normalize.css/normalize.css',
+		'bower_components/jquery/dist/jquery.js'
 	])
 	.pipe(gulp.dest('./'));
 });
@@ -52,11 +42,23 @@ gulp.task('less', function () {
 		cascade: true
 	}))
 	.pipe(gulp.dest('./elements/'));
+
+
+  gulp.src('typo.less')
+	.pipe(less({
+	  paths: [ path.join(__dirname, 'less', 'includes') ]
+	}))
+	.pipe(autoprefixer({
+		browsers: ["last 3 versions", "> 2%", "ie 10", "ie 11", "ie 9"],
+		cascade: true
+	}))
+	.pipe(gulp.dest('./'));
+
 });
 
 
 gulp.task('concat', function () {
-  gulp.src('elements/**/*.css')
+  gulp.src(['elements/**/*.css'])
 	.pipe(concat("main.css"))
 	.pipe(gulp.dest('dist/'));
 });
@@ -77,7 +79,10 @@ gulp.task('scripts', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
 		// gulp.watch('www/js/*.js', ['lint', 'scripts']);
-		gulp.watch('./elements/**/*.less', ['less', 'concat']);
+		gulp.watch([
+			'./elements/**/*.less',
+			'./*.less'
+		], ['less', 'concat']);
 });
 
 // Default Task

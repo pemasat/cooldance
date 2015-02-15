@@ -9,3 +9,4 @@
 /js-vendor*
 /temp*
 /www/css/
+/node_modules

@@ -1,0 +1,29 @@
+/**
+ * Nejdříve css pro mobil
+ */
+#langSwitcher li {
+  list-style-type: none;
+  display: inline;
+}
+#langSwitcher li + li {
+  margin-left: 6px;
+}
+#langSwitcher li + li:before {
+  content: "/";
+  position: absolute;
+  margin-left: -7px;
+}
+#langSwitcher li a {
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+#langSwitcher li a:hover {
+  color: #F00;
+}
+/**
+ * Poté tablet
+ */
+/**
+ * Dektop až na konec
+ */

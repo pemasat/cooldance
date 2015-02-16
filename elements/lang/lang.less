@@ -1,0 +1,51 @@
+/**
+ * Nejdříve css pro mobil
+ */
+#langSwitcher {
+	li {
+		list-style-type: none;
+		display: inline;
+
+		& + li {
+			margin-left: 6px;
+			&:before {
+				content: "/";
+				position: absolute;
+				margin-left: -7px;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			border: 1px solid #333;
+			border-radius: 3px;
+
+			&:hover {
+				color: #F00;
+			}
+
+		}
+	}
+}
+
+
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+	
+
+
+}
+
+
+
+
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: 960px) {
+	
+
+	
+}

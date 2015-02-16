@@ -1,16 +1,6 @@
 /**
  * Nejdříve css pro mobil
  */
-/**
- * Poté tablet
- */
-/**
- * Dektop až na konec
- */
-
-/**
- * Nejdříve css pro mobil
- */
 #menuSwitcher {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAA7VBMVEUAAABEREBEREBEREBEREBEREBEREBEREBEREBEREBEREBEREBEREBEREBEREAuIiIpKScqKigtLSotLSsqKigtLSs9PTspKSkuLi4qKiotLS0vLy4wMC8uKCgoJycoJycoJycqKSgqKSkpKCgqKioAAAAmJiYoKCgyMjEzMzI/AAAoKCQuLiovLysqKiYpKSUvLChPGRcpKSkoKCgqKiYrKycsLCgwMCwwMCwrKydHODUrKygyMjEsLCgrKykqKigqKigsLCooKCc1NTMqKCgrKSkrKSkuLCsuLCwtKik+PjsrKiksKyotLCorKim3ssgSAAAAS3RSTlMAAwMBBQYBCAkLDAENAg8Wgn+Fhn6KFzEdMhw8PS7j4eHj4+MYARQWICIIQUhKPz5KBTMyPDo7REY9EAM55+Xk5ObnKH97fIKDhxmDwxzpAAABUElEQVRIx92WaU/CMByHt7G7Kwge41ABRUBEPAeegAegDvf9P45rtyBNCv2PF4vx96a/NE/Tps+SVZI2jKzIsBYNGVVTM6Cm0FE3TEMHNY3uoFu2hegMEjRTpfsYtoPpDHaya5tt0JOppgXjsxY9mawZCMY7EaeoOpDH8c2Sc+W28oXtQn6HhN929/CyN9eff8/9gGRVKzKiS0LeL9MbjU3jipAPyAI9No2cfSFPFqCF6WxFyIcL8JLpg8NqmFr9qF6r8ttxgzF90gzTap+2W81VLW3TCfgonbPuebd3QdLjt8srxvT1PzBdEvJBmTF9I+SDImO6c+t5/cHdoO+R8Nr9Q8qmE/OPa79s2iTG9NPzcDQmGQ1f+O218ddNu0lNu0Lef2NM594n09nHbDoh4bbPr5RNQ/mFaSD/axrGo43/09B3gBmbhr4z4gZ+x0TtBweO8P9LniB5AAAAAElFTkSuQmCC');
   width: 38px;
@@ -18,6 +8,9 @@
   background-size: 38px 38px;
   text-indent: -99999px;
   display: block;
+}
+#menuSwitcher:hover {
+  cursor: pointer;
 }
 /**
  * Poté tablet
@@ -39,6 +32,16 @@
     overflow: hidden;
   }
 }
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
+/**
+ * Poté tablet
+ */
 /**
  * Dektop až na konec
  */

@@ -1,0 +1,63 @@
+/**
+ * Nejdříve css pro mobil
+ */
+.infoThumb {
+  padding: 0 42px 0 42px;
+  float: left;
+}
+.infoThumb .content {
+  background-color: #737373;
+  color: #ffffff;
+  width: 520px;
+  height: 260px;
+  border-radius: 20px;
+  margin-bottom: 70px;
+}
+.infoThumb img,
+.infoThumb .caption {
+  float: left;
+}
+.infoThumb img {
+  width: 260px;
+  height: 260px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.infoThumb .caption {
+  width: 194px;
+  height: 194px;
+  padding: 32px 28px 28px 38px;
+  color: #c0c0c0;
+}
+.infoThumb .caption a {
+  text-decoration: none;
+  float: right;
+  color: #c0c0c0;
+}
+.infoThumb .content:hover {
+  background-color: #cc1517;
+}
+.infoThumb .content:hover img {
+  -webkit-filter: none;
+  filter: none;
+}
+/**
+ * Poté tablet
+ */
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: 960px) {
+  .infoThumb {
+    padding: 0 42px 0 42px;
+  }
+  .infoThumb .content {
+    margin-bottom: 140px;
+  }
+}

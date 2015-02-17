@@ -1,0 +1,89 @@
+@import		"variables.less";
+/**
+ * Nejdříve css pro mobil
+ */
+.infoThumb {
+	padding: 0 42px 0 42px;
+	float: left;
+}
+
+.infoThumb .content{
+	background-color: @gray;
+	color: @white;
+	width: @infothumb-width;
+	height: @infothumb-height;
+	-webkit-border-radius: @infothumb-radius;
+	-moz-border-radius: @infothumb-radius;
+	border-radius: @infothumb-radius;
+
+	margin-bottom: 70px;
+
+}
+
+.infoThumb img, .infoThumb .caption {
+	float: left;
+}
+
+.infoThumb img {
+	width: (@infothumb-width / 2);
+	height: @infothumb-height;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.infoThumb .caption {
+	width: (@infothumb-width / 2) - 66px;
+	height: (@infothumb-height - 66px);
+	padding: 32px 28px 28px 38px;
+	color: @gray-light;
+}
+
+.infoThumb .caption a {
+	text-decoration: none;
+	float: right;
+	color: @gray-light;
+}
+
+.infoThumb .content:hover {
+	background-color: @red;
+}
+
+.infoThumb .content:hover img {
+	-webkit-filter: none; 
+	filter: none;
+}
+
+
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: @screen-mobile) {
+
+}
+
+
+
+
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: @screen-tablet) {
+	
+	.infoThumb {
+		padding: 0 42px 0 42px;
+	}
+
+	.infoThumb .content {
+		margin-bottom: 140px;
+	}
+
+
+	
+}

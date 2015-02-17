@@ -1,0 +1,40 @@
+/**
+ * Nejdříve css pro mobil
+ */
+.infoBox {
+  padding: 0 34px 0 34px;
+  float: left;
+}
+.infoBox .content {
+  background-color: #737373;
+  color: #ffffff;
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.infoBox h2 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+}
+.infoBox .content:hover {
+  background-color: #cc1517;
+}
+/**
+ * Poté tablet
+ */
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: 960px) {
+  .infoBox {
+    padding: 0 92px 0 92px;
+  }
+  .infoBox .content {
+    margin-bottom: 128px;
+  }
+}

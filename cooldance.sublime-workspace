@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"cms:callTemplate"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"cms",
+				"cms:callableTemplate"
+			],
+			[
+				"_get",
+				"_get_redirectTag"
+			],
+			[
+				"_",
+				"_get_loginForm"
+			],
+			[
+				"time",
+				"timeToAnswer"
+			],
+			[
+				"a",
+				"actualTimeToRedirect"
+			],
+			[
+				"_ge",
+				"_get_timerBox"
+			],
+			[
+				"de",
+				"decreaseTimeAndCheckStatus"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"na",
+				"nextPath=${item_ask"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"hi",
+				"hideMenu"
+			],
+			[
+				"s",
+				"showMenu"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"p",
+				"phoneControl"
+			],
+			[
+				"men",
+				"menuToogleEvent"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"me",
+				"menuSwitcher"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"light",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lorem",
+				"Add some Lorem Gibson"
+			],
+			[
+				"test",
+				"Snippet: test"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"git me",
+				"Git: Merge Branch"
+			],
+			[
+				"git hi",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Fetch"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git gui",
+				"Git: Graph Current File"
+			],
+			[
+				"emme",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"emm",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"emmet css",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"synta html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Run CSScomb"
+			],
+			[
+				"rename",
+				"Emmet: Rename Tag"
+			],
+			[
+				"svn",
+				"Preferences: SVN Settings"
+			],
+			[
+				"cha",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"spli",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"repla",
+				"Tag: Remove Picked Tags in Selection"
+			],
+			[
+				"split",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"slpi",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"tag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"line",
+				"File: New View into File"
+			],
+			[
+				"ma",
+				"Maven: Run clean install"
+			],
+			[
+				"portle",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"packas",
+				"Package Control: Install Package"
+			],
+			[
+				"pacla",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/cooldance"
+	],
+	"file_history":
+	[
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2431251h28.html",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/cooldance/elements/infobox/infobox.css",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/test.sublime-snippet",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/aladin.YAML-tmLanguage",
+		"/var/www/cooldance/elements/infothumb/infothumb.html",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/write.sublime-snippet",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/SublimeCodeIntel/libs/codeintel2/catalogs/drupal.cix",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/LESS/less_completions.py",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/HTML/HTML.tmLanguage",
+		"/var/www/dev.aikidohostivar.cz/app/presenters/PersonsPresenter.php",
+		"/var/www/dev.aikidohostivar.cz/app/presenters/BasePresenter.php",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/cooldance/elements/lang/lang.html",
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2i2d292724.html",
+		"/var/www/cooldance/elements/menu/menu.html",
+		"/var/www/cooldance/elements/lang/lang.less",
+		"/var/www/cooldance/elements/lang/lang.js",
+		"/var/www/cooldance/elements/menu/menu.js",
+		"/var/www/cooldance/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/region-usage-json/US.json",
+		"/var/www/cooldance/dist/main.css",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/Cpoj/Cpoj.js",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/Cpoj/Bubbler.js",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/main.js",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/jquery.ultimate-smartbanner.js",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/fix-console.js",
+		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/build.jsb",
+		"/home/mawebis/Svn/cpoj-theme/src.rar",
+		"/home/mawebis/Svn/cpoj-theme/pom.xml",
+		"/home/mawebis/Svn/cpoj-theme/nbactions.xml",
+		"/home/mawebis/Svn/cpoj-theme/nb-configuration.xml",
+		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/object/keys.js",
+		"/var/www/cooldance/node_modules/gulp-concat/node_modules/through/LICENSE.APACHE2",
+		"/var/www/cooldance/node_modules/gulp/LICENSE",
+		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/string/kebabCase.js",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/cooldance/elements/menu/menu.less",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.3d1y3b271d.html",
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.353927171g.html",
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.1w1c2d3233.js",
+		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.3238232v26.html",
+		"/home/mawebis/Svn/cpoj-theme/target/cpoj-theme-1.0-SNAPSHOT/WEB-INF/liferay-plugin-package.properties",
+		"/var/www/cooldance/elements/logo/logo.html",
+		"/var/www/cooldance/elements/lang/lang.css",
+		"/var/www/cooldance/typo.less",
+		"/var/www/static/pesoun/cooldance/index_files/basic.css",
+		"/var/www/cooldance/elements/menu/menu.css",
+		"/home/mawebis/Onlio/styles.css",
+		"/home/mawebis/Onlio/podralsko/hra.sql",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/LESS.sublime-settings",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/LESS/LESS.sublime-settings",
+		"/opt/sublime_text/changelog.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gallery",
+			"datepicker",
+			"index",
+			"div",
+			"cms",
+			"test",
+			"cms:test",
+			"cms:",
+			"snippe",
+			"snippet",
+			"flashMessage",
+			"width",
+			"<li>",
+			"li",
+			"test",
+			"emmet_action_enabled",
+			"ctrl",
+			"rename",
+			"replace",
+			"_set_guestToDB",
+			"_add_answerToDB",
+			"’",
+			"_get_ask_image",
+			"example",
+			":after",
+			":before",
+			"font-size",
+			"font-fam",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"_set_answerToDB",
+			"logo",
+			"lang",
+			"::after",
+			"::before"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"output.mvn_exec":
+	{
+		"height": 390.0
+	},
+	"project": "cooldance.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			],
+			[
+				"menus",
+				"cooldance/elements/menu/menu.js"
+			],
+			[
+				"lang.js",
+				"cooldance/elements/lang/lang.js"
+			],
+			[
+				"lan",
+				"cooldance/elements/lang/lang.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

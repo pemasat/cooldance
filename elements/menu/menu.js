@@ -1,4 +1,6 @@
 Menu = function(element) {
+	"use strict";
+
 	var
 		me = this;
 	

@@ -14,6 +14,14 @@
 /**
  * Poté tablet
  */
+@media only screen and (min-width: 768px) {
+  header {
+    background: transparent url('/elements/header/header.png') center top;
+    height: 137px;
+    min-width: 700px;
+    max-width: 3000px;
+  }
+}
 /**
  * Dektop až na konec
  */
@@ -160,8 +168,8 @@
   display: block;
   width: 76px;
   height: 40px;
+  background: transparent url('/elements/logo/logo.png') left top no-repeat;
   background-size: 76px 40px;
-  background: transparent url('logo.png') left top no-repeat;
   text-indent: -99999px;
 }
 /**

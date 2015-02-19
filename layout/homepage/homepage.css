@@ -1,9 +1,21 @@
 /**
  * Nejdříve css pro mobil
  */
+#mainMenu {
+	position: relative;
+}
+
+
 /**
  * Poté tablet
  */
+#mainMenu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
 /**
  * Dektop až na konec
  */

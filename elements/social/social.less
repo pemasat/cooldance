@@ -1,0 +1,154 @@
+@import		"variables.less";
+/**
+ * Nejdříve css pro mobil
+ */
+
+.social {
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+	text-align: left;
+}
+
+.social li a {
+	display: inline-block;
+	text-indent: -1000px;
+
+	width: @social-width;
+	height: @social-height;
+	overflow: hidden;
+
+	border: @social-border solid @gray-dark;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	background-image: url('./img/social_sprite.png');
+}
+
+.social li a:hover {
+	border-color: @red;
+	background-position-y: @social-height;
+}
+
+
+.social .soc-fb {
+	background-position: 0px 0px;
+}
+
+.social .soc-youtube {
+	background-position: (@social-width * 3) 0px;
+}
+
+.social .soc-inst {
+	background-position: (@social-width * 2) 0px;
+}
+.social .soc-twitter {
+	background-position: (@social-width * 1) 0px;
+}
+
+.social .soc-msg {
+	width: @social-big-width;
+	height: @social-big-height;
+	margin-bottom: 1px;
+	background-image: url('./img/mail_sprite.png');
+	background-position: 0px 0px;
+}
+
+.social .soc-msg:hover {
+	background-position-y: @social-big-height;
+}
+
+/**
+ * Popup form
+*/
+
+#mailMessageDialog {
+	width: 99%;
+	height: 356px;
+	background-color: @gray-background;
+	padding-top: 15px;
+
+	border: 2px solid @gray-border;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	display: none;
+
+}
+
+#mailMessageDialog h2, #mailMessageDialog div {
+	padding: 0 12px 0 25px;
+}
+
+#mailMessageDialog h2 {
+	color: @gray;
+	margin: 0 0 15px 2px;
+	font-size: 22px;
+}
+
+#mailMessageDialog input, #mailMessageDialog textarea {
+	margin-bottom: 13px;
+	box-sizing: border-box;
+
+	border: none;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	font-size: 20px;
+	color: @gray;
+}
+
+#mailMessageDialog input {
+	width: 100%;
+	padding: 12px;
+}
+
+#mailMessageDialog textarea {
+	width: 100%;
+	height: 199px;
+	padding: 18px 12px 18px 12px;
+}
+
+#mailMessageDialog a {
+	font-size: 20px;
+	color: @gray;
+	text-decoration: none;
+	float: right;
+	margin-right: 25px;
+}
+
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: @screen-mobile) {
+	.social {
+		text-align: right;
+	}
+
+	#mailMessageDialog {
+		width: 476px;
+		height: 356px;
+		right: 22px;
+		position: absolute;
+	}
+
+	#mailMessageDialog input, #mailMessageDialog textarea {
+		width: 100%;
+	}
+
+}
+
+
+
+
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: @screen-tablet) {
+	
+}

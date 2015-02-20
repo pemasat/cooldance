@@ -1,0 +1,90 @@
+/**
+ * Nejdříve css pro mobil
+ */
+.carousel {
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+.carousel .carousel-item .content,
+.carousel .carousel-item .image {
+  float: left;
+}
+.carousel .carousel-item .image {
+  width: 175px;
+  overflow: hidden;
+  padding: 28px 0px 0px 20px;
+}
+.carousel .carousel-item .content {
+  width: 415px;
+  padding: 28px 20px 0 10px;
+}
+.carousel .carousel-item .content h2 {
+  padding: 0;
+  margin: 0;
+  color: #cc1517;
+  font-size: 24px;
+  font-weight: bold;
+}
+.carousel .carousel-item .content p,
+.carousel .carousel-item .content a {
+  font-size: 18px;
+  font-weight: normal;
+}
+.carousel .carousel-item .content a {
+  color: #cc1517;
+  float: right;
+  margin-right: 20px;
+}
+.carousel-nav {
+  display: table;
+  width: 180px;
+  margin: 0 auto;
+}
+.carousel-nav div {
+  display: table-cell;
+}
+.carousel-nav div.cycle-prev {
+  text-align: left;
+  font-size: 24px;
+  width: 20px;
+}
+.carousel-nav div.cycle-next {
+  text-align: right;
+  font-size: 24px;
+  width: 20px;
+}
+.carousel-nav div.carousel-pager {
+  text-align: center;
+  width: 140px;
+}
+.carousel-nav .slide-links {
+  color: #737373;
+  font-size: 24px;
+}
+.carousel-nav .cycle-pager-active {
+  color: #cc1517;
+}
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+  .carousel {
+    width: 1320px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 120px 17px rgba(255, 255, 255, 0.76);
+  }
+  .carousel .cycle-carousel {
+    width: 660px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+  }
+  .carousel-nav {
+    display: none;
+  }
+}
+/**
+ * Dektop až na konec
+ */

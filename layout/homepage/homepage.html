@@ -8,7 +8,9 @@
 	
 	<link rel="stylesheet" type="text/css" media="screen,projection" href="/elements/logo/logo.css" />
 	<link rel="stylesheet" type="text/css" media="screen,projection" href="/elements/menu/menu.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="/elements/social/social.css" />
 	<link rel="stylesheet" type="text/css" media="screen,projection" href="/elements/header/header.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="/elements/footer/footer.css" />
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="./homepage.css" />
 	
@@ -17,38 +19,66 @@
 	<script type="text/javascript" src="/global.js"></script>
 	<script type="text/javascript" src="/elements/logo/logo.js"></script>
 	<script type="text/javascript" src="/elements/menu/menu.js"></script>
+	<script type="text/javascript" src="/elements/social/social.js"></script>
 	<script type="text/javascript" src="/elements/header/header.js"></script>
+	<script type="text/javascript" src="/elements/footer/footer.js"></script>
 	<script type="text/javascript" src="./homepage.js"></script>
 <body>
 	<header>
-		<nav id="logo">
-			<ul>
-				<li><a href="/" id="logo_main">Cool Dance</a>
-					<ul id="logo_popup">
-						<li><a href="#">Další položka</a></li>
-						<li><a href="#">Další položka</a></li>
-						<li><a href="#">Další položka</a></li>
-						<li><a href="#">Další položka</a></li>
-						<li><a href="#">Další položka</a></li>
-						<li><a href="#">Další položka</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-		<nav id="mainMenu" class="menu">
-			<ul>
-				<li><a href="#">Úvod</a></li>
-				<li><a href="#">Druhá</a></li>
-				<li><a href="#">Třetí</a></li>
-				<li><a href="#">Čtvrtá</a></li>
-			</ul>
-		</nav>
+		<div class="in">
+			<nav id="logo">
+				<ul>
+					<li><a href="/" id="logo_main">Cool Dance</a>
+						<ul id="logo_popup">
+							<li><a href="#">Další položka</a></li>
+							<li><a href="#">Další položka</a></li>
+							<li><a href="#">Další položka</a></li>
+							<li><a href="#">Další položka</a></li>
+							<li><a href="#">Další položka</a></li>
+							<li><a href="#">Další položka</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav id="mainMenu" class="menu">
+				<ul>
+					<li><a href="#">Úvod</a></li>
+					<li><a href="#">Druhá</a></li>
+					<li><a href="#">Třetí</a></li>
+					<li><a href="#">Čtvrtá</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<content>
 
 	</content>
 	<footer>
-		!Todo
+		<div class="in">
+			<div id="mailMessageDialog" class="mailMessage">
+				<h2>Rychlý kontakt</h2>
+				<form>
+					<div>
+						<input type="text" name="socFormEmail" id="socFormEmail" value="" placeholder="E-Mail" />
+					</div>
+					<div>
+						<textarea cols="40" rows="8" name="socFormMessage" id="socFormMessage" placeholder="Zpráva"></textarea>
+					</div>
+					<div>
+						<a href="">Odeslat</a>
+					</div>
+				</form>
+			</div>
+			<ul class="social">
+				<li><a class="soc-fb" href="">Facebook</a></li>
+				<li><a class="soc-youtube" href="">YouTube</a></li>
+				<li><a class="soc-msg" href="#mailMessageDialog">Napište nám</a></li>
+				<li><a class="soc-inst" href="">Instagram</a></li>
+				<li><a class="soc-twitter" href="">Twitter</a></li>
+			</ul>
+			
+		</div>
+
 	</footer>
 
 </body>

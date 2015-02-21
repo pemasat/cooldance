@@ -1,17 +1,30 @@
 /**
  * Nejdříve css pro mobil
  */
+#menuSwitcher,
+#mainMenu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#mainMenu {
+	top: 30px;
+	display: none;
+}
 
-
-
+* {
+	color: red;
+	border: 10px;
+}
 
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
-	
-
-
+	#mainMenu {
+		top: 0;
+		display: block;
+	}
 }
 
 

@@ -43,6 +43,16 @@ gulp.task('less', function () {
 	}))
 	.pipe(gulp.dest('./elements/'));
 
+  gulp.src('./layout/**/*.less')
+	.pipe(less({
+	  paths: [ path.join(__dirname, 'less', 'includes') ]
+	}))
+	.pipe(autoprefixer({
+		browsers: ["last 3 versions", "> 2%", "ie 10", "ie 11", "ie 9"],
+		cascade: true
+	}))
+	.pipe(gulp.dest('./layout/'));
+
 
   gulp.src('typo.less')
 	.pipe(less({
@@ -81,6 +91,7 @@ gulp.task('watch', function() {
 		// gulp.watch('www/js/*.js', ['lint', 'scripts']);
 		gulp.watch([
 			'./elements/**/*.less',
+			'./layout/**/*.less',
 			'./*.less'
 		], ['less', 'concat']);
 });

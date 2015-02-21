@@ -1,6 +1,9 @@
 /**
  * Nejdříve css pro mobil
  */
+header ul {
+  margin: 0;
+}
 /**
  * Poté tablet
  */

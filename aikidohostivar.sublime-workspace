@@ -4,38 +4,6 @@
 		"selected_items":
 		[
 			[
-				"cms",
-				"cms:define"
-			],
-			[
-				"_",
-				"_get_level"
-			],
-			[
-				"cal",
-				"cms:callableTemplate"
-			],
-			[
-				"type",
-				"typeName"
-			],
-			[
-				"te",
-				"test"
-			],
-			[
-				"ca",
-				"cms:callTemplate"
-			],
-			[
-				"_ge",
-				"_get_checked_newieItem"
-			],
-			[
-				"c",
-				"c:test	aladin-test"
-			],
-			[
 				"co",
 				"cover"
 			],
@@ -72,12 +40,28 @@
 				"background-size"
 			],
 			[
+				"te",
+				"text-indent"
+			],
+			[
 				"lo",
 				"logo"
 			],
 			[
+				"ca",
+				"cms:callTemplate"
+			],
+			[
+				"cms",
+				"cms:callableTemplate"
+			],
+			[
 				"_get",
 				"_get_redirectTag"
+			],
+			[
+				"_",
+				"_get_loginForm"
 			],
 			[
 				"time",
@@ -86,6 +70,10 @@
 			[
 				"a",
 				"actualTimeToRedirect"
+			],
+			[
+				"_ge",
+				"_get_timerBox"
 			],
 			[
 				"de",
@@ -144,10 +132,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.353927171g.html",
+			"file": "/mnt/Data/www/dev.aikidohostivar.cz/app/router/FrontpageRouter.php",
 			"settings":
 			{
-				"buffer_size": 5941,
+				"buffer_size": 2138,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,24 +147,8 @@
 		"selected_items":
 		[
 			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"pac",
-				"Package Control: List Packages"
-			],
-			[
-				"theme",
-				"SublimeLinter: Choose Gutter Theme"
-			],
-			[
-				"synta html",
-				"Set Syntax: HTML"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
+				"git",
+				"Git GUI Clients: Gitk"
 			],
 			[
 				"git hi",
@@ -185,10 +157,6 @@
 			[
 				"git his",
 				"Git: Commit history"
-			],
-			[
-				"git",
-				"Git: Status"
 			],
 			[
 				"proje",
@@ -223,12 +191,20 @@
 				"Git: Commit"
 			],
 			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
 				"git com",
 				"Git: Commit"
 			],
 			[
 				"git stat",
 				"Git: Status"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
 			],
 			[
 				"file",
@@ -245,6 +221,14 @@
 			[
 				"light",
 				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"pa",
@@ -281,6 +265,10 @@
 			[
 				"emmet css",
 				"Emmet: Reflect CSS Value"
+			],
+			[
+				"synta html",
+				"Set Syntax: HTML"
 			],
 			[
 				"syn",
@@ -380,28 +368,13 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/cooldance",
-		"/var/www/cooldance/elements",
-		"/var/www/cooldance/elements/logo",
-		"/var/www/cooldance/layout",
-		"/var/www/cooldance/layout/homepage"
+		"/mnt/Data/www/dev.aikidohostivar.cz",
+		"/mnt/Data/www/dev.aikidohostivar.cz/app",
+		"/mnt/Data/www/dev.aikidohostivar.cz/app/router",
+		"/mnt/Data/www/dev.aikidohostivar.cz/scss"
 	],
 	"file_history":
 	[
-		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2p2h292c1x.html",
-		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/var/www/cooldance/gulpfile.js",
-		"/var/www/cooldance/layout/homepage/homepage.html",
-		"/var/www/cooldance/layout/homepage/homepage.css",
-		"/var/www/cooldance/elements/menu/menu.css",
-		"/var/www/cooldance/elements/logo/logo.html",
-		"/var/www/cooldance/elements/header/header.html",
-		"/var/www/cooldance/elements/menu/menu.html",
-		"/var/www/cooldance/elements/header/header.less",
-		"/var/www/cooldance/elements/logo/logo.less",
-		"/var/www/cooldance/elements/logo/logo.js",
-		"/var/www/cooldance/global.js",
-		"/mnt/Data/www/cooldance/cooldance.sublime-project",
 		"/var/www/cooldance/bower_components/jquery/src/var/hasOwn.js",
 		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/array/lastIndexOf.js",
 		"/var/www/cooldance/elements/menu/menu.js",
@@ -412,9 +385,11 @@
 		"/var/www/cooldance/node_modules/gulp-less/node_modules/accord/node_modules/lodash/utility/propertyOf.js",
 		"/var/www/cooldance/node_modules/gulp/node_modules/liftoff/appveyor.yml",
 		"/var/www/cooldance/node_modules/gulp-concat/node_modules/through/LICENSE.APACHE2",
+		"/var/www/cooldance/elements/menu/menu.css",
 		"/var/www/cooldance/dist/main.css",
 		"/var/www/cooldance/elements/header/header.js",
 		"/var/www/cooldance/elements/header/header.css",
+		"/var/www/cooldance/elements/header/header.less",
 		"/var/www/static/pesoun/cooldance/index_files/template.css.php.css",
 		"/var/www/cooldance/elements/logo/logo.css",
 		"/var/www/cooldance/jquery.js",
@@ -422,6 +397,7 @@
 		"/var/www/cooldance/node_modules/gulp/LICENSE",
 		"/var/www/cooldance/layout/homepage/homepage.js",
 		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2431251h28.html",
+		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/var/www/cooldance/elements/infobox/infobox.css",
 		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/test.sublime-snippet",
 		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/User/aladin.YAML-tmLanguage",
@@ -436,6 +412,7 @@
 		"/mnt/Data/mawebis-local-dir/config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/var/www/cooldance/elements/lang/lang.html",
 		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2i2d292724.html",
+		"/var/www/cooldance/elements/menu/menu.html",
 		"/var/www/cooldance/elements/lang/lang.less",
 		"/var/www/cooldance/elements/lang/lang.js",
 		"/var/www/cooldance/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/region-usage-json/US.json",
@@ -461,6 +438,7 @@
 		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.1w1c2d3233.js",
 		"/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.3238232v26.html",
 		"/home/mawebis/Svn/cpoj-theme/target/cpoj-theme-1.0-SNAPSHOT/WEB-INF/liferay-plugin-package.properties",
+		"/var/www/cooldance/elements/logo/logo.html",
 		"/var/www/cooldance/elements/lang/lang.css",
 		"/var/www/cooldance/typo.less",
 		"/var/www/static/pesoun/cooldance/index_files/basic.css",
@@ -487,11 +465,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"current",
-			"callableTemplate",
-			"cms",
-			"_get_newie_item",
-			"li",
 			"menu",
 			"	<",
 			"./elements",
@@ -565,55 +538,66 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/mawebis/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.353927171g.html",
-					"semi_transient": false,
+					"file": "/mnt/Data/www/dev.aikidohostivar.cz/app/router/FrontpageRouter.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 5941,
+						"buffer_size": 2138,
 						"regions":
 						{
-							"TagLint":
-							{
-								"flags": 2356,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										4633,
-										4636
-									]
-								],
-								"scope": "variable.parameter"
-							}
 						},
 						"selection":
 						[
 							[
-								5263,
-								5263
+								226,
+								226
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_complete": false,
 							"bh_regions":
 							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -624,42 +608,18 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_unmatched_content"
 							],
 							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2436.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -711,7 +671,7 @@
 	{
 		"height": 390.0
 	},
-	"project": "cooldance.sublime-project",
+	"project": "aikidohostivar.sublime-project",
 	"replace":
 	{
 		"height": 50.0
@@ -724,7 +684,7 @@
 		[
 			[
 				"",
-				"~/.mozilla/firefox/iv6spxwi.default/itsalltext/cms2.onlio.com.2p2h292c1x.html"
+				"layout/homepage/homepage.css"
 			],
 			[
 				"homep",
@@ -808,7 +768,7 @@
 		[
 			[
 				"",
-				"~/Svn/cpoj-en-theme/cpoj-en-theme.sublime-project"
+				"/var/www/cooldance/cooldance.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -825,7 +785,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,

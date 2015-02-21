@@ -1,6 +1,97 @@
 /**
  * Nejdříve css pro mobil
  */
+.carousel {
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+.carousel .carousel-item .content,
+.carousel .carousel-item .image {
+  float: left;
+}
+.carousel .carousel-item .image {
+  width: 175px;
+  overflow: hidden;
+  padding: 28px 0px 0px 20px;
+}
+.carousel .carousel-item .content {
+  width: 415px;
+  padding: 28px 20px 0 10px;
+}
+.carousel .carousel-item .content h2 {
+  padding: 0;
+  margin: 0;
+  color: #cc1517;
+  font-size: 24px;
+  font-weight: bold;
+}
+.carousel .carousel-item .content p,
+.carousel .carousel-item .content a {
+  font-size: 18px;
+  font-weight: normal;
+}
+.carousel .carousel-item .content a {
+  color: #cc1517;
+  float: right;
+  margin-right: 20px;
+}
+.carousel-nav {
+  display: table;
+  width: 180px;
+  margin: 0 auto;
+}
+.carousel-nav div {
+  display: table-cell;
+}
+.carousel-nav div.cycle-prev {
+  text-align: left;
+  font-size: 24px;
+  width: 20px;
+}
+.carousel-nav div.cycle-next {
+  text-align: right;
+  font-size: 24px;
+  width: 20px;
+}
+.carousel-nav div.carousel-pager {
+  text-align: center;
+  width: 140px;
+}
+.carousel-nav .slide-links {
+  color: #737373;
+  font-size: 24px;
+}
+.carousel-nav .cycle-pager-active {
+  color: #cc1517;
+}
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+  .carousel {
+    width: 1320px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 120px 17px rgba(255, 255, 255, 0.76);
+  }
+  .carousel .cycle-carousel {
+    width: 660px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+  }
+  .carousel-nav {
+    display: none;
+  }
+}
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
 /**
  * Poté tablet
  */
@@ -17,9 +108,10 @@
 @media only screen and (min-width: 768px) {
   header {
     background: transparent url('/elements/header/header.png') center top;
-    height: 137px;
+    height: 96px;
     min-width: 700px;
     max-width: 3000px;
+    background-size: cover;
   }
 }
 /**
@@ -211,6 +303,120 @@
     display: inline-block;
     text-indent: -9999px;
     overflow: hidden;
+  }
+}
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
+.social {
+  text-align: center;
+}
+.social li {
+  display: inline;
+  text-align: left;
+}
+.social li a {
+  display: inline-block;
+  text-indent: -1000px;
+  width: 27px;
+  height: 25px;
+  overflow: hidden;
+  border: 2px solid #3c3c3c;
+  border-radius: 3px;
+  background-image: url('img/social_sprite.png');
+}
+.social li a:hover {
+  border-color: #cc1517;
+  background-position-y: 25px;
+}
+.social .soc-fb {
+  background-position: 0px 0px;
+}
+.social .soc-youtube {
+  background-position: 81px 0px;
+}
+.social .soc-inst {
+  background-position: 54px 0px;
+}
+.social .soc-twitter {
+  background-position: 27px 0px;
+}
+.social .soc-msg {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 1px;
+  background-image: url('img/mail_sprite.png');
+  background-position: 0px 0px;
+}
+.social .soc-msg:hover {
+  background-position-y: 34px;
+}
+/**
+ * Popup form
+*/
+#mailMessageDialog {
+  width: 99%;
+  height: 356px;
+  background-color: #e6e6e6;
+  padding-top: 15px;
+  border: 2px solid #cdcdcd;
+  border-radius: 20px;
+  display: none;
+}
+#mailMessageDialog h2,
+#mailMessageDialog div {
+  padding: 0 12px 0 25px;
+}
+#mailMessageDialog h2 {
+  color: #737373;
+  margin: 0 0 15px 2px;
+  font-size: 22px;
+}
+#mailMessageDialog input,
+#mailMessageDialog textarea {
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  color: #737373;
+}
+#mailMessageDialog input {
+  width: 100%;
+  padding: 12px;
+}
+#mailMessageDialog textarea {
+  width: 100%;
+  height: 199px;
+  padding: 18px 12px 18px 12px;
+}
+#mailMessageDialog a {
+  font-size: 20px;
+  color: #737373;
+  text-decoration: none;
+  float: right;
+  margin-right: 25px;
+}
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+  .social {
+    text-align: right;
+  }
+  #mailMessageDialog {
+    width: 476px;
+    height: 356px;
+    right: 22px;
+    position: absolute;
+  }
+  #mailMessageDialog input,
+  #mailMessageDialog textarea {
+    width: 100%;
   }
 }
 /**

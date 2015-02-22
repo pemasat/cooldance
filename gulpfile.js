@@ -93,7 +93,7 @@ gulp.task('watch', function() {
 			'./elements/**/*.less',
 			'./layout/**/*.less',
 			'./*.less'
-		], ['less', 'concat']);
+		], ['less', 'concat', 'concat']);
 });
 
 // Default Task

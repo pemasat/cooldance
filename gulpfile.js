@@ -14,19 +14,17 @@ var path = require('path');
 var copy = require('gulp-copy');
 
 // Lint Task
-/*
 gulp.task('lint', function() {
-		return gulp.src('www/js/*.js')
+		return gulp.src('global.js')
 				.pipe(jshint())
 				.pipe(jshint.reporter('default'));
 });
 
-*/
-
 gulp.task('copyFromBowerLib', function () {
 	gulp.src([
 		'bower_components/normalize.css/normalize.css',
-		'bower_components/jquery/dist/jquery.js'
+		'bower_components/jquery/dist/jquery.js',
+		'bower_components/slick.js/slick/slick.min.js'
 	])
 	.pipe(gulp.dest('./'));
 });

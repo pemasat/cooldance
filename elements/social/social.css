@@ -16,7 +16,7 @@
   overflow: hidden;
   border: 2px solid #3c3c3c;
   border-radius: 3px;
-  background-image: url('img/social_sprite.png');
+  background-image: url('/elements/social/img/social_sprite.png');
 }
 .social li a:hover {
   border-color: #cc1517;
@@ -38,7 +38,7 @@
   width: 34px;
   height: 34px;
   margin-bottom: 1px;
-  background-image: url('img/mail_sprite.png');
+  background-image: url('/elements/social/img/mail_sprite.png');
   background-position: 0px 0px;
 }
 .social .soc-msg:hover {

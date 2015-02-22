@@ -111,7 +111,7 @@
     width: 100%;
     height: 96px;
     bottom: 0px;
-    background-image: url("footer.png");
+    background-image: url("/elements/footer/footer.png");
     background-size: cover;
     background-position: center center;
   }
@@ -366,7 +366,7 @@ header ul {
   overflow: hidden;
   border: 2px solid #3c3c3c;
   border-radius: 3px;
-  background-image: url('img/social_sprite.png');
+  background-image: url('/elements/social/img/social_sprite.png');
 }
 .social li a:hover {
   border-color: #cc1517;
@@ -388,7 +388,7 @@ header ul {
   width: 34px;
   height: 34px;
   margin-bottom: 1px;
-  background-image: url('img/mail_sprite.png');
+  background-image: url('/elements/social/img/mail_sprite.png');
   background-position: 0px 0px;
 }
 .social .soc-msg:hover {
@@ -456,6 +456,42 @@ header ul {
   #mailMessageDialog input,
   #mailMessageDialog textarea {
     width: 100%;
+  }
+}
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
+#menuSwitcher,
+#mainMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mainMenu {
+  top: 30px;
+  display: none;
+}
+* {
+  color: red;
+  border: 10px;
+}
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+  #mainMenu {
+    top: 10px;
+    right: 7ex;
+    display: block;
+  }
+  #langSwitcher {
+    position: absolute;
+    right: 0;
+    top: 30px;
   }
 }
 /**

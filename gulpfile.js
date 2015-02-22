@@ -68,7 +68,7 @@ gulp.task('less', function () {
 
 
 gulp.task('concat', function () {
-  gulp.src(['elements/**/*.css'])
+  gulp.src(['elements/**/*.css', 'layout/**/*.css'])
 	.pipe(concat("main.css"))
 	.pipe(gulp.dest('dist/'));
 });

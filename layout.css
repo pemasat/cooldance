@@ -12,6 +12,9 @@ content > .in {
     width: 960px;
     margin: 0 auto;
   }
+  .layout_12_0 > .layout_column {
+    width: 100%;
+  }
   .layout_6_6 > .layout_column {
     width: 50%;
   }

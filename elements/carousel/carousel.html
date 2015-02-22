@@ -87,29 +87,5 @@
 	</div>
 	<div class="carousel-nav"><div class="cycle-prev">&lt;</div><div class="carousel-pager"></div><div class="cycle-next">&gt;</div></div>
 </div>
-<script>
-	$(document).ready(function() {
-		if ($(window).width() >= 1320) {
-			 $(".cycle-carousel").cycle({
-					 speed: 2000,
-					 slides: "> div.carousel-item",
-					 carouselVisible: 1,
-					 pauseOnHover: true
-			});
-		} else {
-			 $(".carousel").cycle({
-					 speed: 2000,
-					 slides: "div.carousel-item",
-					 carouselVisible: 1,
-					 pauseOnHover: false,
-					 pager: ".carousel-pager",
-					 pagerTemplate: '<span class="slide-links">■</span>',
-					 prev: ".carousel-nav .cycle-prev",
-					 next: ".carousel-nav .cycle-next"
-			});
-
-		}
-	});
-</script>
 </body>
 </html>

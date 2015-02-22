@@ -508,6 +508,18 @@ header ul {
     right: 0;
     top: 30px;
   }
+  .homepage {
+    background: white url('/layout/homepage/homepage-html.jpg') center center no-repeat;
+  }
+  .homepage body {
+    background: transparent url('/layout/homepage/homepage-tanecnici.png') center 100px no-repeat;
+    min-height: 800px;
+    background-size: cover;
+  }
+  .homepage .carousel {
+    position: fixed;
+    bottom: 150px;
+  }
 }
 /**
  * Dektop až na konec
@@ -598,6 +610,9 @@ content > .in {
   content > .in {
     width: 960px;
     margin: 0 auto;
+  }
+  .layout_12_0 > .layout_column {
+    width: 100%;
   }
   .layout_6_6 > .layout_column {
     width: 50%;

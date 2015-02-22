@@ -54,7 +54,7 @@ gulp.task('less', function () {
 	.pipe(gulp.dest('./layout/'));
 
 
-  gulp.src('typo.less')
+  gulp.src(['*.less'])
 	.pipe(less({
 	  paths: [ path.join(__dirname, 'less', 'includes') ]
 	}))
@@ -68,7 +68,7 @@ gulp.task('less', function () {
 
 
 gulp.task('concat', function () {
-  gulp.src(['elements/**/*.css', 'layout/**/*.css'])
+  gulp.src(['elements/**/*.css', 'layout/**/*.css', '*.css'])
 	.pipe(concat("main.css"))
 	.pipe(gulp.dest('dist/'));
 });

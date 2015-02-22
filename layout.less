@@ -1,0 +1,64 @@
+/**
+ * Nejdříve css pro mobil
+ */
+content {
+	& > .in {
+		width: 100%;
+	}
+}
+
+
+
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+	content {
+
+		& > .in {
+			width: 960px;
+			margin: 0 auto;
+		}
+	}
+	
+	.layout_6_6 {
+		& > .layout_column { width: 50%;}
+	}
+	.layout_4_8 {
+		& > .layout_column { width: 33%;}
+		& > .layout_column + .layout_column { width: 66%;}
+	}
+	.layout_3_9 {
+		& > .layout_column { width: 25%;}
+		& > .layout_column + .layout_column { width: 75%;}
+	}
+
+	.layout_column {
+		float: left;
+		.layout_columnIn {
+			padding-left: 40px;
+			padding-bottom: 100px; // tohle je malinko prasárna, ale nepodařilo se mi jinak fixnout patičku pod obsah
+		}
+
+		&:first-child > .layout_columnIn { padding-left: 0; };
+	}
+
+
+}
+
+
+
+
+/**
+ * Dektop až na konec
+ */
+@media only screen and (min-width: 960px) {
+	content {
+		& > .in {
+			width: 1280px;
+		}
+	}
+	
+
+	
+}

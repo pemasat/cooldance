@@ -104,6 +104,7 @@ $(document).ready(function() {
 });
 
 
+
 /**
  * Pomáhá pro popup menu
  */

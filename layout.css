@@ -27,6 +27,12 @@ content > .in {
   .layout_3_9 > .layout_column + .layout_column {
     width: 75%;
   }
+  .layout_2_10 > .layout_column {
+    width: 16%;
+  }
+  .layout_2_10 > .layout_column + .layout_column {
+    width: 84%;
+  }
   .layout_column {
     float: left;
   }

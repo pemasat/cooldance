@@ -556,6 +556,42 @@ header ul {
 /**
  * Nejdříve css pro mobil
  */
+#menuSwitcher,
+#mainMenu,
+#langSwitcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mainMenu {
+  top: 30px;
+  display: none;
+}
+#langSwitcher {
+  top: 10px;
+  right: 50px;
+}
+/**
+ * Poté tablet
+ */
+@media only screen and (min-width: 768px) {
+  #mainMenu {
+    top: 10px;
+    right: 7ex;
+    display: block;
+  }
+  #langSwitcher {
+    right: 0;
+    top: 30px;
+  }
+}
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
 content > .in {
   width: 100%;
 }
@@ -581,6 +617,12 @@ content > .in {
   }
   .layout_3_9 > .layout_column + .layout_column {
     width: 75%;
+  }
+  .layout_2_10 > .layout_column {
+    width: 16%;
+  }
+  .layout_2_10 > .layout_column + .layout_column {
+    width: 84%;
   }
   .layout_column {
     float: left;

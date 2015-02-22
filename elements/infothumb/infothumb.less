@@ -3,7 +3,7 @@
  * Nejdříve css pro mobil
  */
 .infoThumb {
-	padding: 0 42px 0 42px;
+	padding: 0 20px;
 	float: left;
 }
 
@@ -12,12 +12,8 @@
 	color: @white;
 	width: @infothumb-width;
 	height: @infothumb-height;
-	-webkit-border-radius: @infothumb-radius;
-	-moz-border-radius: @infothumb-radius;
 	border-radius: @infothumb-radius;
-
 	margin-bottom: 70px;
-
 }
 
 .infoThumb img, .infoThumb .caption {
@@ -27,13 +23,7 @@
 .infoThumb img {
 	width: (@infothumb-width / 2);
 	height: @infothumb-height;
-	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
-
-	-webkit-border-top-left-radius: 20px;
-	-webkit-border-bottom-left-radius: 20px;
-	-moz-border-radius-topleft: 20px;
-	-moz-border-radius-bottomleft: 20px;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 }
@@ -68,20 +58,17 @@
 
 }
 
-
-
-
 /**
  * Dektop až na konec
  */
 @media only screen and (min-width: @screen-tablet) {
 	
 	.infoThumb {
-		padding: 0 42px 0 42px;
+		padding: 0 10px;
 	}
 
 	.infoThumb .content {
-		margin-bottom: 140px;
+		margin-bottom: 20px;
 	}
 
 

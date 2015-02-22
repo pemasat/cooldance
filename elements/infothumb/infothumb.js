@@ -6,7 +6,7 @@ $(document).ready(function() {
 		  infinite: false,
 		  responsive: [
 			{
-		  		breakpoint: 1224,
+		  		breakpoint: 1000,
 				settings: "unslick"
 			}
 		  ]

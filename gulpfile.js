@@ -75,20 +75,25 @@ gulp.task('concat', function () {
 
 /*
 
+*/
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-		return gulp.src('www/js/*.js')
+		return gulp.src(['elements/**/*.js', 'layout/**/*.js', 'global.js'])
 				.pipe(concat('all.js'))
 				.pipe(gulp.dest('dist'))
 				.pipe(rename('all.min.js'))
 				.pipe(uglify())
 				.pipe(gulp.dest('dist'));
 });
-*/
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-		// gulp.watch('www/js/*.js', ['lint', 'scripts']);
+		gulp.watch([
+				'./elements/**/*.js',
+				'./layout/**/*.js',
+				'./*.js'
+			]
+			, ['lint', 'scripts']);
 		gulp.watch([
 			'./elements/**/*.less',
 			'./layout/**/*.less',
@@ -97,4 +102,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['less', 'concat', 'watch']);
+gulp.task('default', ['less', 'scripts', 'concat', 'watch']);

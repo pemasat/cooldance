@@ -41,6 +41,7 @@ content > .in {
   }
   .layout_column .layout_columnIn {
     padding-left: 40px;
+    padding-top: 96px;
     padding-bottom: 100px;
   }
   .layout_column:first-child > .layout_columnIn {

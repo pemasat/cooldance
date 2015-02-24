@@ -34,7 +34,7 @@
   }
   .homepage body {
     background: transparent url('/layout/homepage/homepage-tanecnici.png') center 100px no-repeat;
-    min-height: 800px;
+    min-height: 900px;
     background-size: cover;
   }
   .homepage .carousel {

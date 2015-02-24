@@ -4,6 +4,7 @@
 .carousel {
   background-color: #ffffff;
   width: 100%;
+  height: 200px;
 }
 .carousel .carousel-item .content,
 .carousel .carousel-item .image {
@@ -64,17 +65,12 @@
 .carousel-nav .cycle-pager-active {
   color: #cc1517;
 }
-
-.carousel-clear {
-	clear: both;
-}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
   .carousel {
     width: 1320px;
-	 height: 200px;
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: 0px 0px 120px 17px rgba(255, 255, 255, 0.76);
@@ -148,6 +144,10 @@ header ul {
     min-width: 700px;
     max-width: 3000px;
     background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 }
 /**
@@ -517,7 +517,7 @@ header ul {
   }
   .homepage body {
     background: transparent url('/layout/homepage/homepage-tanecnici.png') center 100px no-repeat;
-    min-height: 800px;
+    min-height: 900px;
     background-size: cover;
   }
   .homepage .carousel {
@@ -644,6 +644,7 @@ content > .in {
   }
   .layout_column .layout_columnIn {
     padding-left: 40px;
+    padding-top: 96px;
     padding-bottom: 100px;
   }
   .layout_column:first-child > .layout_columnIn {

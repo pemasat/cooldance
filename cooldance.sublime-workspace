@@ -183,9 +183,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 117.0,
+		"height": 180.0,
 		"selected_items":
 		[
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
 			[
 				"push",
 				"Git: Push"
@@ -205,10 +213,6 @@
 			[
 				"git c q",
 				"Git: Quick Commit"
-			],
-			[
-				"git a",
-				"Git: Add..."
 			],
 			[
 				"gi q",
@@ -458,10 +462,19 @@
 		"/var/www/cooldance/elements/lang",
 		"/var/www/cooldance/elements/menu",
 		"/var/www/cooldance/elements/social",
-		"/var/www/cooldance/elements-example"
+		"/var/www/cooldance/elements-example",
+		"/var/www/cooldance/layout",
+		"/var/www/cooldance/layout/homepage",
+		"/var/www/cooldance/layout/kategorie",
+		"/var/www/cooldance/layout/sekce"
 	],
 	"file_history":
 	[
+		"/var/www/cooldance/layout/homepage/homepage.html",
+		"/var/www/cooldance/layout/sekce/sekce.html",
+		"/var/www/cooldance/layout/kategorie/kategorie.html",
+		"/var/www/cooldance/layout/homepage/homepage.js",
+		"/var/www/cooldance/elements/header/header.less",
 		"/var/www/static/Roklen360/css/normalize.css",
 		"/home/mawebis/Svn/cpoj-theme/pom.xml",
 		"/home/mawebis/workspace/rocklen360/pom.xml",
@@ -471,14 +484,10 @@
 		"/var/www/cooldance/bower_components/jquery/src/css/addGetHookIf.js",
 		"/var/www/cooldance/gulpfile.js",
 		"/var/www/cooldance/layout.less",
-		"/var/www/cooldance/layout/homepage/homepage.html",
 		"/var/www/cooldance/layout/homepage/homepage.less",
-		"/var/www/cooldance/layout/homepage/homepage.js",
 		"/var/www/cooldance/elements/menu/menu.js",
 		"/var/www/cooldance/elements/carousel/carousel.html",
 		"/var/www/cooldance/elements/carousel/carousel.js",
-		"/var/www/cooldance/layout/kategorie/kategorie.html",
-		"/var/www/cooldance/layout/sekce/sekce.html",
 		"/var/www/cooldance/elements/infothumb/infothumb.less",
 		"/var/www/cooldance/variables.less",
 		"/var/www/cooldance/elements/infothumb/infothumb.css",
@@ -489,7 +498,6 @@
 		"/var/www/cooldance/elements/menu/menu.css",
 		"/var/www/cooldance/elements/menu/menu.less",
 		"/var/www/cooldance/layout/homepage/homepage.css",
-		"/var/www/cooldance/elements/header/header.less",
 		"/var/www/cooldance/elements/carousel/carousel.css",
 		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/internal/composeArgsRight.js",
 		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/internal/charAtCallback.js",
@@ -767,6 +775,14 @@
 		"selected_items":
 		[
 			[
+				"",
+				"layout/kategorie/kategorie.html"
+			],
+			[
+				"hom",
+				"layout/homepage/homepage.html"
+			],
+			[
 				"gul",
 				"gulpfile.js"
 			],
@@ -777,10 +793,6 @@
 			[
 				"home",
 				"layout/homepage/homepage.js"
-			],
-			[
-				"",
-				"layout/homepage/homepage.less"
 			],
 			[
 				"homep",

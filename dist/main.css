@@ -4,7 +4,6 @@
 .carousel {
   background-color: #ffffff;
   width: 100%;
-  height: 200px;
 }
 .carousel .carousel-item .content,
 .carousel .carousel-item .image {
@@ -37,7 +36,9 @@
   margin-right: 20px;
 }
 .carousel-nav {
+  clear: both;
   display: table;
+  display: none;
   width: 180px;
   margin: 0 auto;
 }
@@ -71,6 +72,7 @@
 @media only screen and (min-width: 768px) {
   .carousel {
     width: 1320px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: 0px 0px 120px 17px rgba(255, 255, 255, 0.76);
@@ -372,6 +374,8 @@ header ul {
  */
 .social {
   text-align: center;
+  clear: both;
+  width: 100%;
 }
 .social li {
   display: inline;
@@ -465,6 +469,7 @@ header ul {
 @media only screen and (min-width: 768px) {
   .social {
     text-align: right;
+    width: auto;
   }
   #mailMessageDialog {
     width: 476px;

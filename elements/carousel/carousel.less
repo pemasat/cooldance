@@ -6,7 +6,6 @@
 .carousel {
 	background-color: #ffffff;
 	width: 100%;
-	height: 200px;
 }
 
 .carousel .cycle-carousel {
@@ -47,7 +46,9 @@
 }
 
 .carousel-nav {
+	clear: both;
 	display: table;
+	display: none; // momentálně máme v mobilu vše pod sebou, nemusíme mít ani přepínač
 	width: 180px;
 	margin: 0 auto;
 }
@@ -89,6 +90,7 @@
 @media only screen and (min-width: @screen-mobile) {
 	.carousel {
 		width: 1320px;
+		height: 200px;
 		margin: 0 auto;
 
 		-webkit-border-radius: 20px;

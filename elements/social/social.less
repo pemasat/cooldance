@@ -74,9 +74,9 @@
 	padding-top: 15px;
 
 	border: 2px solid @gray-border;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 
 	display: none;
 
@@ -87,9 +87,15 @@
 }
 
 #mailMessageDialog h2 {
-	color: @gray;
+	color: @red;
 	margin: 0 0 15px 2px;
 	font-size: 22px;
+}
+
+#mailMessageDialog h2 .soc-close {
+	float: right;
+	color: @red;
+	cursor: pointer;
 }
 
 #mailMessageDialog input, #mailMessageDialog textarea {
@@ -118,10 +124,21 @@
 
 #mailMessageDialog a {
 	font-size: 20px;
-	color: @gray;
+	color: #ffffff;
 	text-decoration: none;
 	float: right;
-	margin-right: 25px;
+	line-height: 36px;
+	text-align: center;
+
+	background-color: @red;
+	display: block;
+	width: 128px;
+	height: 36px;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
 }
 
 /**
@@ -134,7 +151,7 @@
 	}
 
 	#mailMessageDialog {
-		width: 476px;
+		width: 340px;
 		height: 356px;
 		right: 22px;
 		position: absolute;

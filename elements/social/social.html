@@ -15,7 +15,7 @@
 <div style="height: 600px;">
 	<div style="padding-top: 500px;">
 		<div id="mailMessageDialog" class="mailMessage">
-			<h2>Rychlý kontakt</h2>
+			<h2>Rychlý kontakt<span class="soc-close">X</span></h2>
 			<form>
 				<div>
 					<input type="text" name="socFormEmail" id="socFormEmail" value="" placeholder="E-Mail" />
@@ -37,26 +37,5 @@
 		</ul>
 	</div>
 </div>
-<script>
-	$(document).ready(function() {
-		// Show form
-		$(".soc-msg").on("click", function(){
-			dialog = $("#mailMessageDialog");
-			// Set form position
-			if ($(window).width() > 768) {
-				y = $(this).offset().top;
-				dialog.css("top", y - dialog.height() - $(this).height() - 40);
-			}
-
-			// Show/hide form
-			dialog.toggle();
-		});
-
-		// Submit form
-		$(".soc-msg a").on("click", function() {
-			$(".soc-msg form").submit();
-		});
-	});
-</script>
 </body>
 </html>

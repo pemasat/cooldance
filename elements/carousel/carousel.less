@@ -18,11 +18,11 @@
 .carousel .carousel-item .image {
 	width: 175px;
 	overflow: hidden;
-	padding: 28px 0px 0px 20px;
+	padding: 28px 0px 0px 45px;
 }
 .carousel .carousel-item .content {
-	width: 415px;
-	padding: 28px 20px 0 10px;
+	width: 390px;
+	padding: 18px 20px 0 10px;
 
 }
 
@@ -84,13 +84,19 @@
 	color: @red;
 }
 
+.cycle-nav {
+	display: none;
+}
+
+
+
 /**
  * Poté tablet
  */
 @media only screen and (min-width: @screen-mobile) {
 	.carousel {
 		width: 1320px;
-		height: 200px;
+		height: 180px;
 		margin: 0 auto;
 
 		-webkit-border-radius: 20px;
@@ -100,11 +106,13 @@
 		-webkit-box-shadow: 0px 0px 120px 17px rgba(255,255,255,0.76);
 		-moz-box-shadow: 0px 0px 120px 17px rgba(255,255,255,0.76);
 		box-shadow: 0px 0px 120px 17px rgba(255,255,255,0.76);
+
+		background-color: rgba(255,255,255,0.9);
 	}
 
 	.carousel .cycle-carousel {
-		width: 660px;
-		height: 200px;
+		width: 640px;
+		height: 180px;
 
 		float: left;
 		overflow: hidden;
@@ -112,6 +120,23 @@
 
 	.carousel-nav {
 		display: none;
+	}
+
+	.cycle-nav {
+		display: block;
+		width: 24px;
+		height: 180px;
+		position: absolute;
+		margin-left: 20px;
+		z-index: 1000;
+	}
+
+	.cycle-nav img {
+		cursor: pointer;
+	}
+
+	.cycle-nav .cycle-prev{
+		margin: 10px 0 130px 0;
 	}
 	
 }

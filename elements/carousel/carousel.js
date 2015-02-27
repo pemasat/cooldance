@@ -1,10 +1,13 @@
 $(document).ready(function() {
 	if ($(window).width() >= 1320) {
 		 $(".cycle-carousel").cycle({
-				 speed: 2000,
+				 speed: 1000,
 				 slides: "> div.carousel-item",
 				 carouselVisible: 1,
-				 pauseOnHover: true
+				 pauseOnHover: true,
+				 pager: ".cycle-pager",
+				 prev: ".cycle-prev",
+				 next: ".cycle-next"
 		});
 
 	}

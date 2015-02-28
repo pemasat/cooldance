@@ -3,18 +3,18 @@
 <head>
 	<!-- <meta http-equiv="X-UA-Compatible" content="IE=8" /> -->
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="/typo.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="../../normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="../../typo.css" />
 	
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="/dist/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="../..//dist/main.css" />
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick-theme.css"/>
 	
 	<title>Title</title>
-	<script type="text/javascript" src="/jquery.js"></script>
-	<script type="text/javascript" src="/slick.min.js"></script>
+	<script type="text/javascript" src="../../jquery.js"></script>
+	<script type="text/javascript" src="../../slick.min.js"></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-	<script type="text/javascript" src="/dist/all.js"></script>
+	<script type="text/javascript" src="../../dist/all.js"></script>
 <body>
 	<header>
 		<div class="in">
@@ -34,10 +34,10 @@
 			</nav>
 			<nav id="mainMenu" class="menu">
 				<ul>
-					<li><a href="#">Úvod</a></li>
-					<li><a href="#">Druhá</a></li>
-					<li><a href="#">Třetí</a></li>
-					<li><a href="#">Čtvrtá</a></li>
+					<li><a href="#"><span>Úvod</span></a></li>
+					<li><a href="#"><span>Druhá</span></a></li>
+					<li><a href="#"><span>Třetí</span></a></li>
+					<li><a href="#"><span>Čtvrtá</span></a></li>
 				</ul>
 			</nav>
 			<nav id="langSwitcher">
@@ -56,14 +56,15 @@
 					<div class="layout_columnIn">
 
 <div class="carousel">
+	<div class="cycle-nav">
+		<img class="cycle-prev" src="/elements/carousel/img/arrow-up.png" />
+		<img class="cycle-next" src="/elements/carousel/img/arrow-down.png" />
+	</div>
 	<!--
 		First box
 	-->
 	<div class="cycle-carousel">
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -71,9 +72,6 @@
 			</div>
 		 </div>
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého2</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -81,9 +79,6 @@
 			</div>
 		 </div>
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého3</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -96,9 +91,6 @@
 	-->
 	<div class="cycle-carousel">
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého 2.1</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -106,9 +98,6 @@
 			</div>
 		 </div>
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého 2.2</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -116,9 +105,6 @@
 			</div>
 		 </div>
 		 <div class="carousel-item">
-			<div class="image">
-				<img src="/elements/carousel/img/carousel_example.png" />
-			</div>
 			<div class="content">
 				<h2>Naučíme tančit každého 2.3</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate augue ipsum. Nullam et lorem tortor. Etiam quis tortor accumsan, scelerisque eros ut, rhoncus nunc.</p>
@@ -141,7 +127,7 @@
 	<footer>
 		<div class="in">
 			<div id="mailMessageDialog" class="mailMessage">
-				<h2>Rychlý kontakt</h2>
+				<h2>Rychlý kontakt<span class="soc-close">X</span></h2>
 				<form>
 					<div>
 						<input type="text" name="socFormEmail" id="socFormEmail" value="" placeholder="E-Mail" />

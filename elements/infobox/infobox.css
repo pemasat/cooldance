@@ -8,8 +8,8 @@
 .infoBox .content {
   background-color: #737373;
   color: #ffffff;
-  width: 260px;
-  height: 260px;
+  width: 177px;
+  height: 177px;
   border-radius: 20px;
   display: table;
   overflow: hidden;
@@ -20,6 +20,9 @@
   vertical-align: middle;
   text-align: center;
   padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  color: #fff;
 }
 .infoBox .content:hover {
   background-color: #cc1517;
@@ -32,9 +35,9 @@
  */
 @media only screen and (min-width: 960px) {
   .infoBox {
-    padding: 0 92px 0 92px;
+    padding: 0 61.95px 0 61.95px;
   }
   .infoBox .content {
-    margin-bottom: 128px;
+    margin-bottom: 125.67px;
   }
 }

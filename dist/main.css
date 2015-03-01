@@ -5,18 +5,11 @@
   background-color: #ffffff;
   width: 100%;
 }
-.carousel .carousel-item .content,
-.carousel .carousel-item .image {
+.carousel .carousel-item .content {
   float: left;
 }
-.carousel .carousel-item .image {
-  width: 175px;
-  overflow: hidden;
-  padding: 28px 0px 0px 20px;
-}
 .carousel .carousel-item .content {
-  width: 415px;
-  padding: 28px 20px 0 10px;
+  padding: 18px 20px 0 80px;
 }
 .carousel .carousel-item .content h2 {
   padding: 0;
@@ -66,25 +59,48 @@
 .carousel-nav .cycle-pager-active {
   color: #cc1517;
 }
+.cycle-nav {
+  display: none;
+}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
   .carousel {
     width: 1320px;
-    height: 200px;
+    height: 180px;
     margin: 0 auto;
-    border-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     box-shadow: 0px 0px 120px 17px rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 255, 255, 0.9);
   }
   .carousel .cycle-carousel {
-    width: 660px;
-    height: 200px;
+    width: 640px;
+    height: 180px;
     float: left;
     overflow: hidden;
   }
   .carousel-nav {
     display: none;
+  }
+  .cycle-nav {
+    display: block;
+    width: 24px;
+    height: 180px;
+    position: absolute;
+    margin-left: 20px;
+    z-index: 1000;
+  }
+  .cycle-nav img {
+    cursor: pointer;
+  }
+  .cycle-nav .cycle-prev {
+    margin: 10px 0 125px 0;
   }
 }
 /**
@@ -173,8 +189,8 @@ header ul {
 .infoBox .content {
   background-color: #737373;
   color: #ffffff;
-  width: 260px;
-  height: 260px;
+  width: 177px;
+  height: 177px;
   border-radius: 20px;
   display: table;
   overflow: hidden;
@@ -185,6 +201,9 @@ header ul {
   vertical-align: middle;
   text-align: center;
   padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  color: #fff;
 }
 .infoBox .content:hover {
   background-color: #cc1517;
@@ -197,10 +216,10 @@ header ul {
  */
 @media only screen and (min-width: 960px) {
   .infoBox {
-    padding: 0 92px 0 92px;
+    padding: 0 61.95px 0 61.95px;
   }
   .infoBox .content {
-    margin-bottom: 128px;
+    margin-bottom: 125.67px;
   }
 }
 
@@ -214,8 +233,8 @@ header ul {
 .infoThumb .content {
   background-color: #737373;
   color: #ffffff;
-  width: 490px;
-  height: 240px;
+  width: 355px;
+  height: 177px;
   border-radius: 20px;
   margin-bottom: 70px;
 }
@@ -224,18 +243,34 @@ header ul {
   float: left;
 }
 .infoThumb img {
-  width: 245px;
-  height: 240px;
+  width: 177.5px;
+  height: 177px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 .infoThumb .caption {
-  width: 179px;
-  height: 174px;
-  padding: 32px 28px 28px 38px;
+  width: 133.5px;
+  height: 133px;
+  padding: 0 20px 0 24px;
+  font-size: 90%;
+}
+.infoThumb .caption h2,
+.infoThumb .caption h3,
+.infoThumb .caption p {
   color: #c0c0c0;
+}
+.infoThumb .caption p {
+  line-height: 120%;
+  margin-bottom: 5px;
+}
+.infoThumb .caption h2 {
+  font-size: 115%;
+  font-weight: bold;
+}
+.infoThumb .caption h3 {
+  font-size: 105%;
 }
 .infoThumb .caption a {
   text-decoration: none;
@@ -281,8 +316,6 @@ header ul {
 }
 #langSwitcher li a {
   text-decoration: none;
-  border: 1px solid #333;
-  border-radius: 3px;
 }
 #langSwitcher li a:hover {
   color: #F00;
@@ -359,7 +392,9 @@ header ul {
     width: 36px;
     height: 38px;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACJCAYAAAAL81s9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABLxJREFUeNrsndtRGzEUQNca/qGDLBXY/7EHd4A7yHaAU4FNBTEVxFSAqYD1rP8xHWw6MBU4UrgGB/zYJ2ilc2Y0MCR+ac/eK2l11631eh34SK/X7cuvqyRZLAOPafkmgRz8qW7ftv48122gZVghgfsCjPWP0Z5/ftYt0iLMKpDsoaK3fK3fz7juflGeHPwz3eIDAhhOdbvT/2/iWyRQHghgzsxUt4uMD7nSj1nqFiKBGwIMJTSf5nxoWzcjwsAHCU5cDf8y+Lss8TSb9HCrfw5dHjQqBwXomLO4pADb/NAtludFgoaE/8d3078qaIsIEenA7fCfJT38lnFC5FJ6UA4IUHX4P8alDBo7SOB2+D+Geb1HeX3SgcPhPwu/ZB2i0elBNVAAE4ZjCwTYTg/p1gUpJKhZgEgEaFv21syg8UGuTZAOagz/E5mz24y5NjFAgnrC/9TCs//QmgLpwIPw7xQnlh78poR/JCD8u4GyTADCv8+RQHb0XHFIPJRAdvDMOPs9TQdyRW6JAJ5KIOH/Lsi/9Quang4I/55HAsK/5xIQ/j1OB7L6x9zf10iwVfiBAMWIPqMIRtUowDgoVvgBb5htbLUXwVRekCrh34z+LziGlXKTJIuh9RJI+J9x9tfGU/BSQp9amQ4I/5/CpkYysioSEP6/jMpqJEtJQPi3Ij1EZW+3o0oIULTsG6pND3HZIpjckcCiwg/4n/ugYBFMLglk69cs+PyyL8jGH5k95EoPKocAX1X3B9kpVCN5NBIQ/htL5tvyHZSA8N94nkWEuFA6IPw7QaYayQ+RgPDvdHqIdi05qx3hP0YAJzErujuvSKotAaKAzR8+pIcPd239lw70H034p+7PL8ySc9/MHpQMGhDAP9oy8wta3e73lBmA15wrBPCeUMmCAvjLykgwoR/8HRyai01KvlljTn94h7niGL1OEWWdwCwidOgbLzCTgdnm4lLL129DgzcUXQBIAEgASABIAEgASAAv5L5TiWw/2ywssbhkB2nwci+oWZGK5cyLRXLHjHHA3gPbMZcAxsd2GOeWQLaemQtN1B02h8w3tchSfDLl7G8sr1vICg8M2XrWeF63kBWSQO49MKIfG8/FseKTQ5GAzSbuMDp0Kzy1JwoMAuoPXGOYNxJE9JlzRHkl6NNnznG670u+1Y5UELIe4CydrJEgpK+cJcy9TgB+gASABIAEgASABIAEgASABIAEgASABIAEgASABIAEgATwnhNPPqepxCnzJZLLd48fIYHlJMmiVefz93pdpyQgHQASABKAqxLsK7KokDkS2M8Z5zcSABIAEgASABIAEgASABIAEgASABIAEgASABIAEgASABIAEgASABIAEuyi7t3GKRLYzxkSIAEgASABIAEgAVQgwYpu8VyCJFks6RZnifOkgyf6y0mWeSSY0l/Oca+j/CqvBM/0m1NMcs0OxBi+Nd0d5vqYxrmniPpBY8YGTmAielRmnaCPCI0XoK9P6LSwBJIWEKHZAhyd8h9dMTQi6Gauz18zWGwMt7qFWdd8Mi8byxgh1O1n4Ngt3BzBROsb3c71sYr2TQd30Vqv14Vftdfrms0bHQs7JD2WB8ugP3cY7Pka+iZ+1r8CDACWSI3sP3OFyQAAAABJRU5ErkJggg==');
-    background-size: 36px 38px;
+    background-size: 24px 23px;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
     display: inline-block;
     text-indent: -9999px;
     overflow: hidden;
@@ -426,7 +461,7 @@ header ul {
   background-color: #e6e6e6;
   padding-top: 15px;
   border: 2px solid #cdcdcd;
-  border-radius: 20px;
+  border-radius: 10px;
   display: none;
 }
 #mailMessageDialog h2,
@@ -434,9 +469,14 @@ header ul {
   padding: 0 12px 0 25px;
 }
 #mailMessageDialog h2 {
-  color: #737373;
+  color: #cc1517;
   margin: 0 0 15px 2px;
   font-size: 22px;
+}
+#mailMessageDialog h2 .soc-close {
+  float: right;
+  color: #cc1517;
+  cursor: pointer;
 }
 #mailMessageDialog input,
 #mailMessageDialog textarea {
@@ -458,10 +498,16 @@ header ul {
 }
 #mailMessageDialog a {
   font-size: 20px;
-  color: #737373;
+  color: #ffffff;
   text-decoration: none;
   float: right;
-  margin-right: 25px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #cc1517;
+  display: block;
+  width: 128px;
+  height: 36px;
+  border-radius: 7px;
 }
 /**
  * Poté tablet
@@ -472,7 +518,7 @@ header ul {
     width: auto;
   }
   #mailMessageDialog {
-    width: 476px;
+    width: 340px;
     height: 356px;
     right: 22px;
     position: absolute;
@@ -489,45 +535,22 @@ header ul {
 /**
  * Nejdříve css pro mobil
  */
-#menuSwitcher,
-#mainMenu,
-#langSwitcher {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#mainMenu {
-  top: 30px;
-  display: none;
-}
-#langSwitcher {
-  top: 10px;
-  right: 50px;
-}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
-  #mainMenu {
-    top: 10px;
-    right: 7ex;
-    display: block;
-  }
-  #langSwitcher {
-    right: 0;
-    top: 30px;
-  }
   .homepage {
     background: white url('/layout/homepage/homepage-html.jpg') center center no-repeat;
+    height: 100%;
   }
   .homepage body {
     background: transparent url('/layout/homepage/homepage-tanecnici.png') center 100px no-repeat;
-    min-height: 900px;
+    min-height: 100%;
     background-size: cover;
   }
   .homepage .carousel {
     position: fixed;
-    bottom: 150px;
+    bottom: 75px;
   }
 }
 /**
@@ -612,10 +635,40 @@ header ul {
 content > .in {
   width: 100%;
 }
+#menuSwitcher,
+#mainMenu,
+#langSwitcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mainMenu {
+  top: 30px;
+  display: none;
+}
+#langSwitcher {
+  top: 10px;
+  right: 50px;
+}
+header {
+  background-color: white;
+  min-height: 30px;
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
+  header {
+    background-color: transparent;
+    min-height: auto;
+    width: auto;
+    position: static;
+  }
   content > .in {
     width: 960px;
     margin: 0 auto;
@@ -655,11 +708,20 @@ content > .in {
   .layout_column:first-child > .layout_columnIn {
     padding-left: 0;
   }
+  #mainMenu {
+    top: 10px;
+    right: 7ex;
+    display: block;
+  }
+  #langSwitcher {
+    right: 0;
+    top: 30px;
+  }
 }
 /**
  * Dektop až na konec
  */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1280px) {
   content > .in {
     width: 1280px;
   }
@@ -1214,6 +1276,9 @@ body {
 .menu a:hover {
   text-decoration: underline;
   color: #F00;
+}
+.menu a span {
+  color: #333;
 }
 h1 {
   font-size: 200%;

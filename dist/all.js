@@ -1,10 +1,13 @@
 $(document).ready(function() {
 	if ($(window).width() >= 1320) {
 		 $(".cycle-carousel").cycle({
-				 speed: 2000,
+				 speed: 1000,
 				 slides: "> div.carousel-item",
 				 carouselVisible: 1,
-				 pauseOnHover: true
+				 pauseOnHover: true,
+				 pager: ".cycle-pager",
+				 prev: ".cycle-prev",
+				 next: ".cycle-next"
 		});
 
 	}
@@ -121,12 +124,15 @@ $(document).ready(function() {
 		dialog = $("#mailMessageDialog");
 		// Set form position
 		if ($(window).width() > 768) {
-			y = $(this).offset().top;
-			dialog.css("top", -1 * (y - dialog.height() - $(this).height() - 40));
+			dialog.css("margin-top", -1 * (dialog.height() + 40));
 		}
 
 		// Show/hide form
 		dialog.toggle();
+	});
+
+	$(".soc-close").on("click", function(){
+		$("#mailMessageDialog").hide();
 	});
 
 	// Submit form

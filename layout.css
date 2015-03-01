@@ -4,10 +4,40 @@
 content > .in {
   width: 100%;
 }
+#menuSwitcher,
+#mainMenu,
+#langSwitcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mainMenu {
+  top: 30px;
+  display: none;
+}
+#langSwitcher {
+  top: 10px;
+  right: 50px;
+}
+header {
+  background-color: white;
+  min-height: 30px;
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
+  header {
+    background-color: transparent;
+    min-height: auto;
+    width: auto;
+    position: static;
+  }
   content > .in {
     width: 960px;
     margin: 0 auto;
@@ -47,11 +77,20 @@ content > .in {
   .layout_column:first-child > .layout_columnIn {
     padding-left: 0;
   }
+  #mainMenu {
+    top: 10px;
+    right: 7ex;
+    display: block;
+  }
+  #langSwitcher {
+    right: 0;
+    top: 30px;
+  }
 }
 /**
  * Dektop až na konec
  */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1280px) {
   content > .in {
     width: 1280px;
   }

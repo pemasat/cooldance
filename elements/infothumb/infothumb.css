@@ -8,8 +8,8 @@
 .infoThumb .content {
   background-color: #737373;
   color: #ffffff;
-  width: 490px;
-  height: 240px;
+  width: 355px;
+  height: 177px;
   border-radius: 20px;
   margin-bottom: 70px;
 }
@@ -18,18 +18,34 @@
   float: left;
 }
 .infoThumb img {
-  width: 245px;
-  height: 240px;
+  width: 177.5px;
+  height: 177px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 .infoThumb .caption {
-  width: 179px;
-  height: 174px;
-  padding: 32px 28px 28px 38px;
+  width: 133.5px;
+  height: 133px;
+  padding: 0 20px 0 24px;
+  font-size: 90%;
+}
+.infoThumb .caption h2,
+.infoThumb .caption h3,
+.infoThumb .caption p {
   color: #c0c0c0;
+}
+.infoThumb .caption p {
+  line-height: 120%;
+  margin-bottom: 5px;
+}
+.infoThumb .caption h2 {
+  font-size: 115%;
+  font-weight: bold;
+}
+.infoThumb .caption h3 {
+  font-size: 105%;
 }
 .infoThumb .caption a {
   text-decoration: none;

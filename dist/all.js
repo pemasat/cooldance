@@ -1,10 +1,13 @@
 $(document).ready(function() {
 	if ($(window).width() >= 1320) {
 		 $(".cycle-carousel").cycle({
-				 speed: 2000,
+				 speed: 1000,
 				 slides: "> div.carousel-item",
 				 carouselVisible: 1,
-				 pauseOnHover: true
+				 pauseOnHover: true,
+				 pager: ".cycle-pager",
+				 prev: ".cycle-prev",
+				 next: ".cycle-next"
 		});
 
 	}
@@ -56,6 +59,7 @@ Menu = function(element) {
 	this.element = element;
 	this.phoneControl = null;
 	this.mainMenu = document.getElementById('mainMenu');
+	this.searchControl = null;
 
 	this.isPhoneView = false;
 
@@ -83,6 +87,13 @@ Menu = function(element) {
 		me.isPhoneView = $(me.phoneControl).is(":visible");
 	};
 
+	this.addSearchControl = function() {
+		me.searchControl = $().html('<form action="#" method="get" id="searchControl"></form>');
+		$(me.searchControl).append($().html('<input type="search" name="search" />'));
+		$(me.searchControl).append($().html('<input type="submit" value="hledej" />'));
+		$(me.mainMenu).append(me.searchControl);
+	};
+
 	this.checkVisibilityForPhoneControl = function() {
 		if ( // jedu ze směru mobil -> desktop
 			$(me.phoneControl).is(":visible") === false &&
@@ -105,6 +116,7 @@ Menu = function(element) {
 
 	init = function() {
 		me.generateControlForPhone();
+		me.addSearchControl();
 		me.handleDefaultEvents();
 		(me.isPhoneView) ? me.hideMenu : {};
 	}();
@@ -121,12 +133,15 @@ $(document).ready(function() {
 		dialog = $("#mailMessageDialog");
 		// Set form position
 		if ($(window).width() > 768) {
-			y = $(this).offset().top;
-			dialog.css("top", -1 * (y - dialog.height() - $(this).height() - 40));
+			dialog.css("margin-top", -1 * (dialog.height() + 40));
 		}
 
 		// Show/hide form
 		dialog.toggle();
+	});
+
+	$(".soc-close").on("click", function(){
+		$("#mailMessageDialog").hide();
 	});
 
 	// Submit form

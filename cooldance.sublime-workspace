@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
 				"ba",
 				"background-size"
 			],
@@ -183,9 +195,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 180.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git fetch",
+				"Git: Fetch"
+			],
+			[
+				"fetch ",
+				"Git: Fetch"
+			],
 			[
 				"q",
 				"Git: Quick Commit"
@@ -197,10 +233,6 @@
 			[
 				"push",
 				"Git: Push"
-			],
-			[
-				"git q",
-				"Git: Quick Commit"
 			],
 			[
 				"gi a",
@@ -225,10 +257,6 @@
 			[
 				"wrap",
 				"Word Wrap: Toggle"
-			],
-			[
-				"git add",
-				"Git: Add..."
 			],
 			[
 				"packa",
@@ -450,31 +478,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/var/www/cooldance",
-		"/var/www/cooldance/elements",
-		"/var/www/cooldance/elements/carousel",
-		"/var/www/cooldance/elements/carousel/img",
-		"/var/www/cooldance/elements/example",
-		"/var/www/cooldance/elements/infobox",
-		"/var/www/cooldance/elements/infothumb",
-		"/var/www/cooldance/elements/lang",
-		"/var/www/cooldance/elements/menu",
-		"/var/www/cooldance/elements/social",
-		"/var/www/cooldance/elements-example",
-		"/var/www/cooldance/layout",
-		"/var/www/cooldance/layout/homepage",
-		"/var/www/cooldance/layout/kategorie",
-		"/var/www/cooldance/layout/sekce"
-	],
 	"file_history":
 	[
-		"/var/www/cooldance/layout/homepage/homepage.html",
-		"/var/www/cooldance/layout/sekce/sekce.html",
-		"/var/www/cooldance/layout/kategorie/kategorie.html",
-		"/var/www/cooldance/layout/homepage/homepage.js",
 		"/var/www/cooldance/elements/header/header.less",
+		"/var/www/cooldance/elements/footer/footer.less",
+		"/var/www/cooldance/elements/footer/footer.css",
+		"/var/www/cooldance/layout/homepage/homepage.less",
+		"/var/www/cooldance/layout.less",
+		"/var/www/cooldance/elements/social/social.less",
+		"/var/www/cooldance/elements/carousel/carousel.less",
+		"/var/www/cooldance/elements/carousel/carousel.js",
+		"/var/www/cooldance/elements/social/social.js",
+		"/var/www/cooldance/layout/sekce/sekce.html",
+		"/var/www/cooldance/layout/homepage/homepage.js",
+		"/var/www/cooldance/layout/homepage/homepage.html",
+		"/var/www/cooldance/elements/header/header.html",
+		"/var/www/cooldance/elements/footer/footer.html",
+		"/var/www/cooldance/layout/kategorie/kategorie.html",
 		"/var/www/static/Roklen360/css/normalize.css",
 		"/home/mawebis/Svn/cpoj-theme/pom.xml",
 		"/home/mawebis/workspace/rocklen360/pom.xml",
@@ -483,11 +503,8 @@
 		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/lang/isTypedArray.js",
 		"/var/www/cooldance/bower_components/jquery/src/css/addGetHookIf.js",
 		"/var/www/cooldance/gulpfile.js",
-		"/var/www/cooldance/layout.less",
-		"/var/www/cooldance/layout/homepage/homepage.less",
 		"/var/www/cooldance/elements/menu/menu.js",
 		"/var/www/cooldance/elements/carousel/carousel.html",
-		"/var/www/cooldance/elements/carousel/carousel.js",
 		"/var/www/cooldance/elements/infothumb/infothumb.less",
 		"/var/www/cooldance/variables.less",
 		"/var/www/cooldance/elements/infothumb/infothumb.css",
@@ -509,16 +526,11 @@
 		"/var/www/cooldance/global.js",
 		"/var/www/cooldance/.gitignore",
 		"/var/www/cooldance/node_modules/gulp-rename/.jshintrc",
-		"/var/www/cooldance/elements/social/social.less",
 		"/var/www/cooldance/layout/sekce/sekce.css",
 		"/var/www/cooldance/node_modules/gulp/node_modules/minimist/test/stop_early.js",
 		"/var/www/cooldance/layout.css",
-		"/var/www/cooldance/elements/header/header.html",
-		"/var/www/cooldance/elements/footer/footer.html",
-		"/var/www/cooldance/elements/footer/footer.less",
 		"/var/www/cooldance/elements/footer/footer.js",
 		"/var/www/cooldance/elements/social/social.html",
-		"/var/www/cooldance/elements/social/social.js",
 		"/var/www/cooldance/elements/example/example.less",
 		"/var/www/cooldance/elements/menu/menu.html",
 		"/var/www/cooldance/dist/all.js",
@@ -547,7 +559,6 @@
 		"/var/www/cooldance/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
 		"/var/www/cooldance/node_modules/gulp/node_modules/liftoff/appveyor.yml",
 		"/var/www/cooldance/elements/header/header.css",
-		"/var/www/cooldance/elements/footer/footer.css",
 		"/var/www/cooldance/node_modules/gulp-jshint/node_modules/lodash/object/forOwn.js",
 		"/var/www/cooldance/elements/social/social.css",
 		"/var/www/cooldance/typo.css",
@@ -596,8 +607,7 @@
 		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/fix-console.js",
 		"/home/mawebis/Svn/cpoj-theme/src/main/javascript/build.jsb",
 		"/home/mawebis/Svn/cpoj-theme/src.rar",
-		"/home/mawebis/Svn/cpoj-theme/nbactions.xml",
-		"/home/mawebis/Svn/cpoj-theme/nb-configuration.xml"
+		"/home/mawebis/Svn/cpoj-theme/nbactions.xml"
 	],
 	"find":
 	{
@@ -617,6 +627,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"footer",
 			"lin",
 			"./img/",
 			"infothumb-width",
@@ -775,6 +786,26 @@
 		"selected_items":
 		[
 			[
+				"caro",
+				"elements/carousel/carousel.less"
+			],
+			[
+				"socia",
+				"elements/social/social.less"
+			],
+			[
+				"homepa",
+				"layout/homepage/homepage.less"
+			],
+			[
+				"heade",
+				"elements/header/header.less"
+			],
+			[
+				"footer.e",
+				"elements/footer/footer.less"
+			],
+			[
 				"",
 				"layout/kategorie/kategorie.html"
 			],
@@ -797,14 +828,6 @@
 			[
 				"homep",
 				"layout/homepage/homepage.less"
-			],
-			[
-				"caro",
-				"elements/carousel/carousel.js"
-			],
-			[
-				"homepa",
-				"layout/homepage/homepage.html"
 			],
 			[
 				"lay",
@@ -887,16 +910,8 @@
 				"dist/main.css"
 			],
 			[
-				"heade",
-				"elements/header/header.less"
-			],
-			[
 				"footerle",
 				"elements/footer/footer.less"
-			],
-			[
-				"socia",
-				"elements/social/social.js"
 			],
 			[
 				"footejs",
@@ -988,7 +1003,7 @@
 		[
 			[
 				"",
-				"~/Svn/cpoj-en-theme/cpoj-en-theme.sublime-project"
+				"~/Projekty/sublime/roklen360.sublime-workspace"
 			]
 		],
 		"width": 380.0

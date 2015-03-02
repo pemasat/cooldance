@@ -1,45 +1,22 @@
 /**
  * Nejdříve css pro mobil
  */
-#menuSwitcher,
-#mainMenu,
-#langSwitcher {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#mainMenu {
-  top: 30px;
-  display: none;
-}
-#langSwitcher {
-  top: 10px;
-  right: 50px;
-}
 /**
  * Poté tablet
  */
 @media only screen and (min-width: 768px) {
-  #mainMenu {
-    top: 10px;
-    right: 7ex;
-    display: block;
-  }
-  #langSwitcher {
-    right: 0;
-    top: 30px;
-  }
   .homepage {
     background: white url('/layout/homepage/homepage-html.jpg') center center no-repeat;
+    height: 100%;
   }
   .homepage body {
     background: transparent url('/layout/homepage/homepage-tanecnici.png') center 100px no-repeat;
-    min-height: 900px;
+    min-height: 100%;
     background-size: cover;
   }
   .homepage .carousel {
     position: fixed;
-    bottom: 150px;
+    bottom: 75px;
   }
 }
 /**

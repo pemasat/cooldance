@@ -7,6 +7,7 @@ Menu = function(element) {
 	this.element = element;
 	this.phoneControl = null;
 	this.mainMenu = document.getElementById('mainMenu');
+	this.searchControl = null;
 
 	this.isPhoneView = false;
 
@@ -34,6 +35,13 @@ Menu = function(element) {
 		me.isPhoneView = $(me.phoneControl).is(":visible");
 	};
 
+	this.addSearchControl = function() {
+		me.searchControl = $().html('<form action="#" method="get" id="searchControl"></form>');
+		$(me.searchControl).append($().html('<input type="search" name="search" />'));
+		$(me.searchControl).append($().html('<input type="submit" value="hledej" />'));
+		$(me.mainMenu).append(me.searchControl);
+	};
+
 	this.checkVisibilityForPhoneControl = function() {
 		if ( // jedu ze směru mobil -> desktop
 			$(me.phoneControl).is(":visible") === false &&
@@ -56,6 +64,7 @@ Menu = function(element) {
 
 	init = function() {
 		me.generateControlForPhone();
+		me.addSearchControl();
 		me.handleDefaultEvents();
 		(me.isPhoneView) ? me.hideMenu : {};
 	}();

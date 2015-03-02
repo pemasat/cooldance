@@ -55,7 +55,7 @@
   background-color: #e6e6e6;
   padding-top: 15px;
   border: 2px solid #cdcdcd;
-  border-radius: 20px;
+  border-radius: 10px;
   display: none;
 }
 #mailMessageDialog h2,
@@ -63,9 +63,14 @@
   padding: 0 12px 0 25px;
 }
 #mailMessageDialog h2 {
-  color: #737373;
+  color: #cc1517;
   margin: 0 0 15px 2px;
   font-size: 22px;
+}
+#mailMessageDialog h2 .soc-close {
+  float: right;
+  color: #cc1517;
+  cursor: pointer;
 }
 #mailMessageDialog input,
 #mailMessageDialog textarea {
@@ -87,10 +92,16 @@
 }
 #mailMessageDialog a {
   font-size: 20px;
-  color: #737373;
+  color: #ffffff;
   text-decoration: none;
   float: right;
-  margin-right: 25px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #cc1517;
+  display: block;
+  width: 128px;
+  height: 36px;
+  border-radius: 7px;
 }
 /**
  * Poté tablet
@@ -101,7 +112,7 @@
     width: auto;
   }
   #mailMessageDialog {
-    width: 476px;
+    width: 340px;
     height: 356px;
     right: 22px;
     position: absolute;

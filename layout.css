@@ -28,6 +28,9 @@ header {
   top: 0;
   left: 0;
 }
+.layout_columnIn {
+  padding-top: 30px;
+}
 /**
  * Poté tablet
  */
@@ -37,6 +40,9 @@ header {
     min-height: auto;
     width: auto;
     position: static;
+  }
+  .layout_columnIn {
+    padding-top: 0;
   }
   content > .in {
     width: 960px;

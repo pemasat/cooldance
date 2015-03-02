@@ -1,6 +1,16 @@
 /**
  * Nejdříve css pro mobil
  */
+/**
+ * Poté tablet
+ */
+/**
+ * Dektop až na konec
+ */
+
+/**
+ * Nejdříve css pro mobil
+ */
 .carousel {
   background-color: #ffffff;
   width: 100%;
@@ -103,16 +113,6 @@
     margin: 10px 0 125px 0;
   }
 }
-/**
- * Dektop až na konec
- */
-
-/**
- * Nejdříve css pro mobil
- */
-/**
- * Poté tablet
- */
 /**
  * Dektop až na konec
  */
@@ -659,6 +659,9 @@ header {
   top: 0;
   left: 0;
 }
+.layout_columnIn {
+  padding-top: 30px;
+}
 /**
  * Poté tablet
  */
@@ -668,6 +671,9 @@ header {
     min-height: auto;
     width: auto;
     position: static;
+  }
+  .layout_columnIn {
+    padding-top: 0;
   }
   content > .in {
     width: 960px;
